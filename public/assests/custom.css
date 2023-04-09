@@ -1,0 +1,388 @@
+
+    .shadow1{
+        transition: all .5s linear;
+        cursor: pointer;
+    }
+    .shadow1:hover{
+        box-shadow: #008cff6b 5px 5px 20px , rgba(0, 140, 255, 0.397) -5px -5px 20px ;
+
+    }
+    .image-move{
+       transition: all 1s linear;
+        /* margin-left: -880px; */
+       
+    }
+    .image-bigger{
+        width: 400px;
+        
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+.lightcolor2{
+background-color: rgba(0, 0, 0, 0.514);
+}
+    .points::before {
+        font-size: 40px;
+        font-weight: bolder;
+        content: ".";
+        color: #51e7ef5b;
+    }
+
+    .z-index {
+        z-index: -1;
+    }
+
+    .lightcolor {
+        color: rgba(255, 255, 255, 0.281);
+    }
+
+    .movinganimation {
+        transition: all 1s .5s;
+
+    }
+
+    .parent:hover .movinganimation {
+        transform: translateX(-840px);
+    }
+
+    .fadeout {
+        opacity: 1;
+        transition: all .5s ease-in-out;
+    }
+
+    .parent:hover .fadeout {
+        opacity: 0;
+    }
+
+    .scale {
+        transform: scale(3);
+        transition: all 1s ease-in-out;
+    }
+
+    .scale:hover {
+        transform: scale(4);
+    }
+
+    .hidingcycle {
+        transform: scale(2);
+        margin-top: -20px;
+        margin-left: -200px;
+        width: 1000px;
+        height: 500px;
+
+    }
+
+    .button {
+        color: white;
+        width: 200px;
+        height: 50px;
+    }
+
+    .button::before {
+        border: 2px solid white;
+        width: 120px;
+        height: 200px;
+    }
+
+    .btn {
+        /* border: 1px solid #51E8EF; */
+
+        width: 200px;
+        height: 48px;
+        background-color: transparent;
+        /* border: 2px solid #51E8EF; */
+    }
+
+    .btn::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 200px;
+        height: 200px;
+        border-top: 2px solid white;
+        animation: border-top 3s infinite alternate;
+    }
+
+    /* @keyframes border-top{
+    0%{
+        width: 0; 
+        height: 20px;
+    }
+    50%{
+        width:0 ;
+        height: 10px   ;
+    }
+    100%{
+        width:0 ;
+        height: 50px   ;
+    }
+} */
+
+
+    .mix {
+        background-image: linear-gradient(top, black, );
+    }
+
+    .letterspacing {
+        letter-spacing: 10px;
+    }
+
+    .widthfortext {
+        width: 400px;
+    }
+
+    @media (min-width:900px) {
+        .animation:hover {
+            bottom: 20px;
+        }
+    }
+
+    .animation {
+        position: relative;
+        bottom: 0px;
+        transition: .4s ease-in-out;
+        cursor: pointer;
+    }
+
+    .logocolor {
+        color: #51E8EF;
+        letter-spacing: 3px;
+        font-size: 12px;
+    }
+
+    .themecolor {
+        color: #51E8EF;
+    }
+
+
+
+    .part1 {
+        position: absolute;
+        left: 62%;
+        top: -31%;
+    }
+
+    .part4 {
+        position: absolute;
+        left: 40%;
+        top: 58%;
+    }
+
+    .part3 {
+        position: absolute;
+        left: 56%;
+        top: 20%;
+    }
+
+    .part2 {
+
+        position: absolute;
+        left: 46%;
+        top: -10%;
+    }
+.z-index2{
+    z-index: -1;
+}
+.z-index3{
+    z-index: 1;
+}
+    @media (max-width:1600px) {
+
+
+        .part1 {
+            position: absolute;
+            left: 63%;
+            top: -50%;
+        }
+
+        .part4 {
+            position: absolute;
+            left: 38%;
+            top: 28%;
+        }
+
+        .part3 {
+            position: absolute;
+            left: 56%;
+            top: 10%;
+        }
+
+        .part2 {
+
+            position: absolute;
+            left: 46%;
+            top: -27%;
+        }
+
+    }
+
+    .hide {
+        width: 0;
+        height: 0;
+        transition: all 1s linear;
+    }
+
+    .normal:hover .hide {
+        width: 200px;
+        height: 50px;
+    }
+
+    .image {
+        transform: scale(100px);
+        width: 100px;
+        height: 70px;
+        transition: .5s all linear;
+    }
+
+    .image:hover {
+        transform: scale(200px);
+    }
+
+    .themeblackcolor {
+        background-color: rgba(0, 0, 0, 0.404);
+    }
+
+    .smalltext {
+        font-size: 13px;
+    }
+
+    :root {
+        --width: 300px;
+        --height: 80px;
+    }
+
+    .black {
+        background-color: rgb(0, 0, 0);
+
+    }
+
+    .button {
+        position: relative;
+        transition: all .5s linear;
+        width: 300px;
+        font-size: 50px;
+        height: 80px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+
+    }
+
+    .button::before {
+
+        left: 0;
+        top: 0;
+        content: "";
+        position: absolute;
+        /* width:111px ; */
+        width: 0px;
+        height: 0px;
+        /* height: 45px; */
+        animation: border-top 3s infinite alternate;
+        border-right: 2px solid #00f7ff;
+        border-top: 2px solid #51E8EF;
+        border-bottom: none;
+        border-left: none;
+    }
+
+    .button::after {
+
+        right: 0;
+        bottom: 0;
+        content: "";
+        position: absolute;
+        /* width:111px ; */
+        width: 0px;
+        height: 0px;
+        /* height: 45px; */
+        animation: border-top 3s infinite alternate;
+        animation-play-state: running;
+        border-left: 2px solid #51E8EF;
+        border-bottom: 2px solid #51E8EF;
+        border-top: none;
+    }
+
+    .button:hover {
+        cursor: pointer;
+        box-shadow: #51E8EF 5px 5px 20px, #51E8EF -5px -5px 20px;
+    }
+
+    .button::after:hover~.button {
+        animation-play-state: paused;
+    }
+
+    .button:hover .button::after {
+        animation-play-state: paused;
+        cursor: pointer;
+    }
+
+    @keyframes border-top {
+        0% {
+            height: 0;
+            width: 0;
+        }
+
+        50% {
+            width: var(--width);
+            height: 0;
+        }
+
+        100% {
+            width: var(--width);
+            height: var(--height);
+        }
+    }
+
+    @keyframes border-bottom {
+        0% {
+            height: 0;
+            width: 0;
+        }
+
+        50% {
+            width: var(--width);
+            height: 0;
+        }
+
+        100% {
+            width: var(--width);
+            height: var(--height);
+        }
+    }
+    .moved{
+animation-name: move;
+animation-duration: 4s;
+
+    }
+    .letterspacing {
+        letter-spacing: 10px;
+    }
+
+    .themecolor {
+        color: #51E8EF;
+    }
+    @keyframes move{
+        0%{
+            margin-left: -400px;
+            transition: all linear 1s;
+            
+        }
+        20%{
+            margin-left: -800px;
+            transition: all linear 1s;
+            
+        }
+        40%{
+            margin-left: -2400px;
+            transition: all linear 1s;
+           
+        }
+        60%{
+            margin-left: -3200px;
+            transition: all linear 1s;
+           
+        }
+       
+      
+    }

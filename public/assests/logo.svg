@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107.064" height="100.092" viewBox="0 0 107.064 100.092">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.558" y1="0.403" x2="4.032" y2="-1.915" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5fc4d4"/>
+      <stop offset="0.276" stop-color="#0a1d1e"/>
+      <stop offset="0.623" stop-color="#1d5c5f"/>
+      <stop offset="1" stop-color="#0b1b1c"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="logoart" d="M508.37,553.813l-10.758-21.4V514.631L475.217,492.36l7.606-7.565L508.37,510.2Zm51.521-21.4-10.758,21.4V510.2l25.542-25.407,7.606,7.565-22.39,22.274Zm-34.334,44.181-10.758-4.28V506.349L492.4,484.076l7.606-7.565,25.547,25.407Zm17.144-4.28-10.758,4.28V501.906l25.544-25.4,7.606,7.565L542.7,506.341Z" transform="translate(-475.217 -476.502)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" y1="0.015" x2="1" y2="1.019" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#51e8ef"/>
+      <stop offset="0.276" stop-color="#146365"/>
+      <stop offset="0.586" stop-color="#51e8ef"/>
+      <stop offset="1" stop-color="#02190d"/>
+    </linearGradient>
+  </defs>
+  <g id="logoart-2" data-name="logoart" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="107.583" height="171.204" transform="translate(-0.503 -71.933)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>
