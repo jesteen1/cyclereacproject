@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//  import logo from './logo.svg';
 import Home from './pages/home';
 
 import React, {useEffect} from 'react';
@@ -15,7 +15,10 @@ function App() {
   return ( 
     <Home />
     )
-    
+    useEffect(()=>{
+      Aos.init({duration: 1000})
+          },[]);
+  
   
 }
 

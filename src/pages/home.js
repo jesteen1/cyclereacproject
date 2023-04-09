@@ -1,5 +1,5 @@
 import React ,{useEffect}  from 'react';
-import custom from '../custom';
+//   import custom from '../custom';
 
 class Home extends React.Component{
 
@@ -435,7 +435,7 @@ class Home extends React.Component{
                 <div class=" shadow1 flex  image-bigger overflow-hidden rounded ">
     <div class=" flex image-move moved" id="image_moving">
 
-        <img src="./assests/cycle1.jpg"  alt="image " class="image-bigger" id="image1" />
+        <img src="./assests/cycle1.jpg"  alt="" class="image-bigger" id="image1" />
         <img src="./assests/battery.png" alt=""class="image-bigger" id="image2" />
         <img src="./assests/cycle2.jpg" alt=""class="image-bigger" id="image3" />
         <img src="./assests/cycle3.jpg" alt=""class="image-bigger" id="image4" />
